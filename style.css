@@ -1,0 +1,38 @@
+.nav-bar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 727px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.nav-item {
+  margin-right: 104px;
+}
+
+.nav-container {
+  display: flex;
+}
+
+h2 {
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+body {
+  margin: 0 64px;
+}
+
+.divider {
+  height: 1px;
+  display: block;
+  background-color: #D6D6D6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
