@@ -50,6 +50,7 @@ a {
   width: 441px;
   height: 520px;
   display: inline-block;
+  position: relative;
 }
 
 .featured-two-thirds {
@@ -73,8 +74,18 @@ a {
 }
 
 .post-tag2 {
-  width: 560px;
-  height: 100px;
+  width: calc((100% / 3) * 2);
+  height: 110px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.post-tag1 {
+  border-top-right-radius: 2px;
+  width: calc((100% / 3) * 2);
+  height: 110px;
   background-color: white;
   position: absolute;
   bottom: 0;
