@@ -44,3 +44,10 @@ a {
 .section-title {
   font-size: 22px;
 }
+
+.featured-small-post {
+  width: 441px;
+  height: 520px;
+  margin-left: 12px;
+  display: inline-block;
+}
