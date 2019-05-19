@@ -70,6 +70,11 @@ a {
 
 .featured-row2 {
   margin-top: 12px;
+  display: flex;
+}
+
+.featured-row1 {
+  display: flex;
 }
 
 .image-sizing {
@@ -118,4 +123,10 @@ a {
   margin-bottom: 8px;
   bottom: 0;
   position: absolute;
+}
+
+.iframe-css {
+  width: 855px;
+  height: 520px;
+  display: inline-block;
 }
