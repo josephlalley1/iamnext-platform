@@ -48,6 +48,19 @@ a {
 .featured-small-post {
   width: 441px;
   height: 520px;
-  margin-left: 12px;
   display: inline-block;
+}
+
+.featured-large-post {
+  width: 855px;
+  height: 520px;
+  display: inline-block;
+}
+
+.post-margin {
+  margin-left: 12px;
+}
+
+.featured-row2 {
+  margin-top: 12px;
 }
