@@ -75,6 +75,7 @@ a {
 
 .post-tag2 {
   width: calc((100% / 3) * 2);
+  border-top-right-radius: 2px;
   height: 110px;
   background-color: white;
   position: absolute;
