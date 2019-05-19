@@ -1,6 +1,9 @@
-h2 {
+body {
   font-family: 'Circular Std';
-  font-size: 18px;
+}
+
+h2 {
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -18,7 +21,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  width: 727px;
+  width: 752px;
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -43,7 +46,8 @@ a {
 }
 
 .section-title {
-  font-size: 22px;
+  font-size: 24px;
+  margin-bottom: 16px;
 }
 
 .featured-one-third {
@@ -74,7 +78,7 @@ a {
 }
 
 .post-tag2 {
-  width: calc((100% / 3) * 2);
+  width: 500px;
   border-top-right-radius: 2px;
   height: 110px;
   background-color: white;
@@ -85,10 +89,33 @@ a {
 
 .post-tag1 {
   border-top-right-radius: 2px;
-  width: calc((100% / 3) * 2);
+  width: 320px;
   height: 110px;
   background-color: white;
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.tag-title {
+  margin-top: 16px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.tag-dates {
+  margin-top: 4px;
+  font-weight: 400;
+  color: #7C7C7C;
+  font-size: 14px;
+}
+
+.tag-more {
+  margin-top: 8px;
+  font-weight: 100;
+  color: #C2C2C2;
+  font-size: 13px;
+  margin-bottom: 8px;
+  bottom: 0;
+  position: absolute;
 }
