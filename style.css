@@ -39,19 +39,20 @@ a {
 
 .featured-section {
   margin-top: 32px;
+  margin-bottom: 64px;
 }
 
 .section-title {
   font-size: 22px;
 }
 
-.featured-small-post {
+.featured-one-third {
   width: 441px;
   height: 520px;
   display: inline-block;
 }
 
-.featured-large-post {
+.featured-two-thirds {
   width: 855px;
   height: 520px;
   display: inline-block;
@@ -63,4 +64,9 @@ a {
 
 .featured-row2 {
   margin-top: 12px;
+}
+
+.image-sizing {
+  width: 100%;
+  height: 100%;
 }
