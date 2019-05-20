@@ -16,6 +16,21 @@ a {
   color: black;
 }
 
+@font-face {
+  font-family: 'Circular Std';
+  src: url('CircularStd-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Circular Bold';
+  src: url('CircularStd-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Circular Medium';
+  src: url('CircularStd-Medium.ttf') format('truetype');
+}
+
 .nav-bar {
   display: flex;
   margin-left: auto;
@@ -46,6 +61,7 @@ a {
 }
 
 .section-title {
+  font-family: 'Circular Bold';
   font-size: 24px;
   margin-bottom: 16px;
 }
@@ -103,12 +119,14 @@ a {
 }
 
 .tag-title {
+  font-family: 'Circular Bold';
   margin-top: 16px;
   font-size: 18px;
   margin-bottom: 0;
 }
 
 .tag-dates {
+  font-family: 'Circular Medium';
   margin-top: 4px;
   font-weight: 400;
   color: #7C7C7C;
@@ -116,6 +134,7 @@ a {
 }
 
 .tag-more {
+  font-family: 'Circular Std';
   margin-top: 8px;
   font-weight: 100;
   color: #C2C2C2;
