@@ -3,8 +3,8 @@ body {
 }
 
 h2 {
-  font-size: 20px;
-  font-weight: 500;
+  font-family: 'Circular Bold';
+  font-size: 18px;
 }
 
 body {
@@ -61,8 +61,8 @@ a {
 }
 
 .section-title {
-  font-family: 'Circular Bold';
-  font-size: 24px;
+  font-family: 'Circular Medium';
+  font-size: 22px;
   margin-bottom: 16px;
 }
 
@@ -121,7 +121,7 @@ a {
 .tag-title {
   font-family: 'Circular Bold';
   margin-top: 16px;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -145,7 +145,7 @@ a {
 }
 
 .iframe-css {
-  width: 855px;
+  width: 1308px;
   height: 520px;
   display: inline-block;
 }
