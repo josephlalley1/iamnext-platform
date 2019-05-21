@@ -92,7 +92,6 @@ a {
 .featured-row1 {
   display: flex;
   margin-bottom: 40px;
-
 }
 
 .image-sizing {
@@ -191,4 +190,18 @@ a {
 
 .event-title {
   margin-top: 0;
+}
+
+.playlists-section {
+  margin-top: 40px;
+}
+
+.playlist-imgs {
+  height: 266px;
+}
+
+.playlist-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
 }
