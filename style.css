@@ -301,6 +301,10 @@ footer {
 
 @media (min-width: 1441px) {
   body {
+    margin: 0 384px;
+  }
+
+  main {
     margin-left: auto;
     margin-right: auto;
   }
