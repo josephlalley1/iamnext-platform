@@ -298,12 +298,3 @@ footer {
   height: calc((100% / 5) - 8px);
   background-color: white;
 }
-
-@media (min-width: 1281px) {
-
-  body {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-}
