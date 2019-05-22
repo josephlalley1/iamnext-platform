@@ -265,12 +265,15 @@ footer {
 }
 
 .social-section {
-  width: calc(100% - 958px);
+  width: calc(100% - 992px);
   display: inline-block;
   background: #f7f7f7;
   height: 517px;
   float: right;
   margin-left: 14px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .bottom-row-cont {
