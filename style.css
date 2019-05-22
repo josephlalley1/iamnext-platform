@@ -268,12 +268,10 @@ footer {
   width: calc(100% - 992px);
   display: inline-block;
   background: #f7f7f7;
-  height: 517px;
+  height: 485px;
   float: right;
   margin-left: 14px;
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 16px;
 }
 
 .bottom-row-cont {
@@ -285,4 +283,18 @@ footer {
   display: inline-block;
   margin-top: 24px;
   margin-left: 14px;
+}
+
+.social-container {
+  width: 100%;
+  height: 435px;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-link1 {
+  width: 100%;
+  height: calc((100% / 5) - 8px);
+  background-color: white;
 }
